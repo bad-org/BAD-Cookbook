@@ -12,7 +12,7 @@ We see ourselves as chefs and we use recipes created by ourselves or others to h
 
 - **Meals** - are complete sets of courses to solve common problems
 - **Courses** - are a set of recipes to solve problem areas of your organisation
-- **Recipes** are experiments to try to satisfy a specific challenge or problem.
+- **Recipes** - are experiments to try to satisfy a specific challenge or problem.
 
 ## Contributing
 
@@ -27,10 +27,18 @@ To contribute, please register for a free GitHub account and create Branch in ou
 
 ## Installing the GitBook Toolchain for publishing
 
-- Install Docker
-- $ docker pull billryan/gitbook
-- $ nano .bashrc
-- Add line: alias gitbook='docker run --rm -v "$PWD":/gitbook -p 4000:4000 billryan/gitbook gitbook' 
+- Install HomeBrew
+    - /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+- Install Node
+    - brew install node
+- Install gitbook CLI - This provides with book tooling
+    - npm install gitbook-cli -g
+- Install gitbook-summary - this builds the book index
+    - npm install -g gitbook-summary
+- Rebuild summary
+    - book sm
+- Publish books
+    - 
 
 ## Authors & Contributors
 
