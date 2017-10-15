@@ -25,6 +25,13 @@ To contribute, please register for a free GitHub account and create Branch in ou
 - Please put your details at the bottom of the page as an author or contributor.
 - Please add Creative Commons BY copyright, this allows others to employ your work, but when re-publishing, must attribute the source.
 
+## Installing the GitBook Toolchain for publishing
+
+- Install Docker
+- $ docker pull billryan/gitbook
+- $ nano .bashrc
+- Add line: alias gitbook='docker run --rm -v "$PWD":/gitbook -p 4000:4000 billryan/gitbook gitbook' 
+
 ## Authors & Contributors
 
 - Gary Green - http://agileegghead.com , https://www.linkedin.com/in/garygreenuk/, https://www.infinityworks.com
