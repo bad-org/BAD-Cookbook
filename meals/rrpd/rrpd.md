@@ -6,7 +6,12 @@ Welcome to the RRPD (**Rapid, Repeatable, Predictable Delivery**) cookbook.  Thi
 
 We started with the concept of Recipes.  
 
-## Authors and Contributors
+## Authors & Contributors
 
-- Gary Green
-- Austen Bell
+- Gary Green - http://agileegghead.com , https://www.linkedin.com/in/garygreenuk/, https://www.infinityworks.com
+
+## Copyright
+
+This work is Licensed under a Creative Commons BY License [For more information see: http://creativecommons.org/licenses/by/4.0/
+
+![Creative Commons BY](https://i.creativecommons.org/l/by/4.0/88x31.png)
